@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpo|rt" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sonia Uwamahoro">
+    <title>sonnet</title>
+
+     <!--====main css====-->
+     <link rel="stylesheet" href="Styles/style.css">
+
+     <!--====AOS====-->
+     <link rel="stylesheet" href="Styles/aos.css">
+
+     <!--====icons====-->
+     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <!--====favicon====-->
+     <link rel="shortcut icon"  type="image/png" href="images/favicon.png">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+     <!--====navigation bar====-->
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+         <i>S<small>onnet</small></i><i class="fa fa-heart-o" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a href="index.html" class="active">home</a>
+          <a href="categories.html">categories</a>
+          <a href="poetry.html">poetry</a>
+          <a href="contact.html">contact</a>
+          <a href="sign-up.html"><i class="fa fa-user-circle-o"></i></i>Sign Up</a>
+          
+        </div>
+      </div> <!--====navigation bar_end====-->
+
+
+<!--====front p ====-->
+
+<section class="front-p">
+    <div class="front-text">
+        <h1>welcome</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+        <span class="navbar-loggin">
+          <section class="navi">
+            <button id="nav-item" class="btn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log in</button>
+            
+            <div id="id01" class="modal">
+              
+              
+              <form class="modal-content animate" action="/action_page.php" method="post">
+                <div class="imgcontainer">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                  <h2 class="slider-tittle">Log In</h2>
+                  <h6><b>Welcome</b>, Again <b>Log In</b> To See What's New Today!</h6>
+                </div>
+            
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+            
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+                    
+                  <button type="submit">Login</button>
+                </div>
+            
+                <div class="container" >
+                 <h6 class="sign"></h6>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                  <span class="pse">New User? <a href="Sign-up.html">Sign Up Here</a></span>
+                </div>
+              </form>
+            </div>
+                
+          </section>
+        </span>
+    </div>
+
+</section><!--====front p_end====-->
+
+
+<!--====home quote====-->
+
+<section>
+   
+    <div class="home-quotes">
+    <div class="quote-icon">
+        <i class='bx bx-expand-alt'></i>
+    </div>
+    <div class="quote-text">
+
+        <p>
+            “If I read a book and it makes my whole body so cold no fire can warm me, I know that is poetry. If I feel physically as if the top of my head were taken off, I know that is poetry. These are the only ways I know it. Is there any other way?”       </p>
+        <h1>
+           -PLATO
+        </h1>
+    </div>
+</div>
+
+</section><!--====home quote_end====-->
+
+
+<!--====about us====-->
+<section class="us">
+
+    <div class="us-div" data-aos="fade-down">
+        <div class="us-text">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet, doctus appareat qualisque eum in, id his ferri aliquip vivendum. Etiam inermis quaerendum cu usu, eam velit evertitur adversarium et. Eam in docendi tibique, per an phaedrum tincidunt,
+             soleat deseruisse te vim. Feugiat facilisis no mel, vis nobis epicuri ut, sed ut justo possim delenit.</p>
+             
+        </div>
+        <a href="#">Know Us More</a>
+    </div>
+
+</section><!--====about us====-->
+
+<!--====servises====-->
+
+<section class="servises">
+    <div class="servises-div">
+      <div class="read" data-aos="fade-right" data-aos-delay="200">
+        <h1>read</h1>
+        <i class='bx bx-book-heart'></i>
+        <p>Lorem ipsum dolor sit amet, doctus appareat qualisque eum in, id his ferri aliquip vivendum. Etiam inermis quaerendum cu usu,
+         eam velit evertitur adversarium et.</p>
+      </div>
+      <div class="read" data-aos="fade-in" data-aos-delay="200">
+        <h1>create</h1>
+        <i class='bx bx-network-chart'></i>
+        <p>Lorem ipsum dolor sit amet, doctus appareat qualisque eum in, id his ferri aliquip vivendum. Etiam inermis quaerendum cu usu,
+         eam velit evertitur adversarium et.</p>
+      </div>
+      <div class="read" data-aos="fade-left" data-aos-delay="200">
+        <h1>enjoy</h1>
+        <i class="fa fa-slideshare"></i>
+        <p>Lorem ipsum dolor sit amet, doctus appareat qualisque eum in, id his ferri aliquip vivendum. Etiam inermis quaerendum cu usu,
+         eam velit evertitur adversarium et.</p>
+      </div>
+    </div>
+
+</section><!--====servises_end====-->
+
+
+
+
+
+
+
+<!--=====blog post sample====-->
+<section class="post-sample">
+      
+  <div class="container">
+        <div class="title">
+            <h6>Blog</h6>
+            <h3>Trendy Posts</h3>
+        </div>
+        <div class="column-card">
+
+            <div class="card" data-aos="zoom-in-right" data-aos-delay="500">
+                <img  src="images/1.gif" alt="" >
+                <div class="panel">
+                    <span class="date">8th</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, doctus appareat qualisque eum in.
+                    </p>
+                
+                    <a href="post1.html">read me <i class="fa fa-arrow-right"></i> </a>
+                </div>
+            </div>
+
+            <div class="card" data-aos="zoom-in-up" data-aos-delay="300">
+                <img  src="images/4.gif" alt="" >
+                <div class="panel">
+                    <span class="date">9th</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, doctus appareat qualisque eum in.
+                    </p>
+                    
+                    <a href="post2.html">read me <i class="fa fa-arrow-right"></i> </a>
+                </div>
+            </div>
+
+            <div class="card" data-aos="zoom-in-left" data-aos-delay="500">
+                <img  src="images/5.gif" alt="" >
+                <div class="panel">
+                    <span class="date">10th</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, doctus appareat qualisque eum in.
+                    </p>
+            
+                    <a href="post3.html">read me <i class="fa fa-arrow-right"></i> </a>
+                </div>
+            </div>
+        </div>
+ <a href="poetry.html" class="all-btn"><i class="fa fa-chevron-right" aria-hidden="true"></i> See All</a>
+  </div>
+</section>
+
+
+
+
+<!--====footer====-->
+<section>
+    <footer class="footer">
+  
+    <div class="footer-div">
+  
+      <div class="about-us" data-aos="flip-up" data-aos-delay="200">
+        <h4>About us</h4>
+        <P>Lorem ipsum dolor sit amet, doctus appareat qualisque eum in, id his ferri aliquip vivendum. 
+          Etiam inermis 
+        </P>
+      </div>
+      
+  
+     <div class="newsletta" data-aos="flip-up" data-aos-delay="300">
+        <h4>Subscribe</h4>
+        &nbsp;
+          <a href="#">Click Here To Subscribe</a>
+  
+     </div> 
+  
+     <div class="links" data-aos="flip-up" data-aos-delay="400">
+        <h4>Special Links</h4>
+       <a href="#">Categories</a>
+       <br>
+       <a href="#">Poetry</a>
+  
+     </div>
+  
+    <div class="follow" data-aos="flip-up" data-aos-delay="500">
+        <h4>Follow us</h4>
+        <p>Get In Touch</p>
+       
+          
+        <a  href="#"><i class="fa fa-facebook"></i></a>
+            
+        <a  href="#"><i class="fa fa-twitter"></i></a>
+                
+        <a href="#"><i class="fa fa-instagram"></i></a>
+             
+        <a href="#"><i class="fa fa-pinterest"></i></a>
+            
+    </div>
+    </div>
+  
+    </div>
+    </footer>
+                   
+        </section><!--====footer_end====-->
+
+
+    <!--====main js====--> 
+    <script src="javascripts/main.js"></script>
+
+    <!--====AOS====--> 
+    <script src="javascripts/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>
+
+    <!--====jQuery====-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

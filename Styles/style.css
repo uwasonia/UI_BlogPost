@@ -1001,8 +1001,12 @@ width: 100%;
   .poetry-content{
     grid-template-columns: 100%;
   }
-
-
+}
+@media only screen and (max-width:379px){
+    
+  .top-post span{
+    display: none;
+  }
 }
 
 
